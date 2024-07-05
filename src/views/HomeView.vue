@@ -8,7 +8,6 @@ import Button from 'primevue/button'
 import Card from 'primevue/card'
 import Dialog from 'primevue/dialog'
 import { ref, onMounted } from 'vue'
-// import { ProductService } from '@/service/ProductService'
 import { useProductStore } from '@/stores/products'
 import { type Product } from '../types/Product'
 

@@ -1,0 +1,55 @@
+:root {
+  --primary-50: #f2fbf8;
+  --primary-100: #d4f3ea;
+  --primary-200: #a8e7d4;
+  --primary-300: #75d3ba;
+  --primary-400: #48b99f;
+  --primary-500: #2f9d86;
+  --primary-600: #227a69;
+  --primary-700: #206559;
+  --primary-800: #1e5149;
+  --primary-900: #1d443e;
+  --primary-950: #0b2824;
+  --surface-0: 255 255 255;
+  --surface-50: 250 250 250;
+  --surface-100: 244 244 245;
+  --surface-200: 228 228 231;
+  --surface-300: 212 212 216;
+  --surface-400: 161 161 170;
+  --surface-500: 113 113 122;
+  --surface-600: 82 82 91;
+  --surface-700: 63 63 70;
+  --surface-800: 39 39 42;
+  --surface-900: 24 24 27;
+  --surface-950: 9 9 11;
+
+  --primary: var(--primary-600);
+  --primary-inverse: var(--surface-0);
+  --primary-hover: var(--primary-700);
+  --primary-active-color: var(--primary-700);
+
+  --primary-highlight-opacity: 0.1;
+  --primary-highlight-inverse: var(--primary-800);
+  --primary-highlight-hover-opacity: 0.2;
+}
+
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */

@@ -23,13 +23,13 @@ const routes = ref<MenuItem[]>(
     <header class="flex flex-row bg-primary text-white p-4">
       <img
         alt="AA Projekts logo"
-        class="mr-4"
+        class="mr-4 rounded"
         src="@/assets/aa-projekts-logo-min.jpg"
-        width="50"
-        height="50"
+        width="58"
+        height="58"
       />
 
-      <nav class="flex-1">
+      <nav class="flex-1 p-1 bg-white rounded">
         <TabMenu class="flex-1" :model="routes">
           <template #item="{ item, props }">
             <router-link v-slot="{ href, navigate }" :to="item.route" custom>

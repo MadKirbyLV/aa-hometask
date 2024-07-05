@@ -11,8 +11,7 @@ import 'primeicons/primeicons.css'
 import Ripple from 'primevue/ripple'
 
 // @ts-ignore
-// import Aura from './presets/aura' //preset written in js
-import Lara from './presets/lara'
+import Aura from './presets/aura' //preset written in js
 
 const app = createApp(App)
 
@@ -20,7 +19,7 @@ app.use(createPinia())
 app.use(router)
 app.use(PrimeVue, {
   unstyled: true,
-  pt: Lara
+  pt: Aura
 })
 app.directive('ripple', Ripple)
 

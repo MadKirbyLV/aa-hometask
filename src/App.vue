@@ -25,8 +25,8 @@ const routes = ref<MenuItem[]>(
         alt="AA Projekts logo"
         class="mr-4"
         src="@/assets/aa-projekts-logo-min.jpg"
-        width="66"
-        height="66"
+        width="50"
+        height="50"
       />
 
       <nav class="flex-1">
